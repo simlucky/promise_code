@@ -2,6 +2,7 @@ const PENDING = 'PENDING',
     FULFILLED = 'FULFILLED',
     REJECTED = 'REJECTED';
 
+const a = 1
 
 function resolvePromise(promise2, x, resolve, reject) {
     if (promise2 === x) {
